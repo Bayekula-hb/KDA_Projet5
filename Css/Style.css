@@ -1,26 +1,47 @@
 *{
     margin: 0;padding: 0;
 }
-@font-face{
-    font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,500;0,700;1,300&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
-header{
+#DivPage{
+    width: 100%;
+    height: 100%;
+}
+#Head{
     background-color: rgb(218,69,80);
+    width: 100%;
+    height: 15%;
+}
+#NavHeader{
+    margin: 0;padding: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-header nav{
-    width: 70%;
-    margin: 0;padding: 0;
-    margin-top: 4%;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
+.LogoKD{
+    width: 8%;
+    height: 100%;
+    margin: 1%;
 }
-.LogoKD img{
-    height: 90%;
-    width: 15%;
-    margin-left: 2%;
+#NavHeader  .Menu{
+    width: 90%;
+    margin: 0;padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.MenuSite{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 ul li{
     list-style: none;
@@ -31,13 +52,76 @@ ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+.LogoKD img{
+    height: 100%;
+    width: 90%;
+    display: inline-block;
+}
 .Sec1{
     background-color:rgb(218,69,80);
     background-image: url("../Img/hero-background.jpg");
+    background-size: 100%;
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 .Sec1 p{
     text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Sec1 p span{
+    color: rgb(255,230,77);
+}
+.FirstPara{
+    font-size: 5rem;
+    font-weight:bold;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4%;
+}
+.ParaBtn{
+    margin: 3%;
+    width: 90%;
+}
+.BtnDemander, .BtnPlanifier{
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 18px;
+    background-color: white;
     
+    color: rgb(218,69,80);
+    font-size: 1.5em;
+    margin: 0.7%;
+    padding: 1.2%;
+}
+.BtnDemander:hover, .BtnPlanifier:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.EndPara{
+    font-size: 1.2em;
+    width: 61%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.4%;
+}
+.ParaIconeTech{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 1.3%;
+}
+.ParaIconeTech img{
+    width: 5%;
+    height: 3%;
+    opacity: 0.7;
+}
+/*Section 2*/
+.Sec2{
+    background-color: rgb(241,240,243);
+    width: 100%;
+    height: auto;
 }
