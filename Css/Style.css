@@ -217,7 +217,6 @@ h5{
     width: 70%;
     margin: auto;
 }
-/*End Sec2*/
 /*Begin Sec3*/
 .Sec3{
     width: 100%;
@@ -263,6 +262,7 @@ h5{
     height: 20%;
     padding-top: 3%;
     background-color: rgb(241,240,243);
+    padding-bottom: 4%;
 }
 .Div1-Sec4{
     width: 90%;
@@ -276,6 +276,7 @@ h5{
 .DivContainer-Sec4{
     width: 90%;
     margin: auto;
+    margin-top: 4%;
     display: flex;
     flex-direction: row;
 }
@@ -294,6 +295,8 @@ h5{
     height: 100%;
     margin: auto;
     background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
 }
 .SousDiv-Div2, .SousDiv-Div3{
     width: 80;
@@ -301,14 +304,32 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid rgb(190, 164, 14);
-    margin: 10%;
-    padding: 10%;
+    padding: 7%;
 }
 .SousDiv-Div2 h3 ,.SousDiv-Div3 h3{
     text-align: center;
+    padding-bottom: 4%;
+    font-size: 2em;
     color: rgb(218,69,80);
 }
 .SousDiv-Div2 p, .SousDiv-Div3 p{
-    color: rgb(122,109,131);
+    color: rgb(66, 67, 69);
+    opacity: 0.7;
+    text-align: justify;
+}
+.BtnDemarrer, .BtnEngager{
+    width: 80%;
+    text-decoration: none;
+    border: 3px solid rgb(218,69,80);
+    border-radius: 18px;
+    background-color: rgb(218,69,80);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 4%;
+    padding: 4%; 
+}
+.BtnDemarrer:hover, .BtnEngager:hover{
+    background-color: transparent;
+    color: rgb(218,69,80);
 }
