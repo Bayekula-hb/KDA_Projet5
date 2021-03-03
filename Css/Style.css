@@ -83,10 +83,11 @@ ul li a{
     color: rgb(255,230,77);
 }
 .FirstPara{
-    font-size: 5rem;
+    /* font-size: 5rem; */
     font-weight:900;
     line-height: 100%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
     padding-top: 4%;
 }
 .ParaBtn{
@@ -102,6 +103,9 @@ ul li a{
     color: rgb(218,69,80);
     color: #d92950;
     font-size: 1.5em;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     margin: 0.7%;
     padding: 1.2%;
 }
@@ -152,17 +156,14 @@ ul li a{
     margin-left: -10%;
     width: 80%;
     height: 90%;
-    background-size: cover;
-    overflow: hidden;
 }
 .Div1-1-Img img{
-    width: 100%;
+    width: 97%;
     height: 100%;
     border: 0px solid rgb(241,240,243);
     border-radius: 30px;
 }
 .Div1-2-Img{
-    position: static;
     position: relative;
     left:31.8%;
     width: 75%;
@@ -181,12 +182,12 @@ ul li a{
 }
 .Div2-Sec2 h1{
     color: rgb(66,67,69);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    /* font-weight: 700; */
+    font-weight: 700;
 }
 .DivQualif{
-    width: 100%;
+    width: 98%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -207,7 +208,8 @@ ul li a{
 }
 h5{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
+    font-size: 20px;
     color: rgb(66,67,69);
     font-weight: bold;
     margin: 2%;
@@ -234,7 +236,8 @@ h5{
     width: auto;
     height: 100%;
     color: rgb(255, 255, 255);
-    font-family: 'Montserrat1';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 40px;
 }
 .Div2-Sec3-Container{
@@ -262,7 +265,7 @@ h5{
     height: 20%;
     padding-top: 3%;
     background-color: rgb(241,240,243);
-    padding-bottom: 4%;
+    padding-bottom: 8%;
 }
 .Div1-Sec4{
     width: 90%;
@@ -270,9 +273,11 @@ h5{
 }
 .Div1-Sec4 h1{
     color: rgb(57,37,70);
+    color: rgba(24, 0, 39, 0.87);
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
+    font-weight: 700;
     margin-bottom: 4%;
 }
 .DivContainer-Sec4{
@@ -284,36 +289,42 @@ h5{
     justify-content: space-between;
     align-content: flex-start;
 }
+.Div2-Sec4, .Div3-Sec4{
+    width: 48%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+}
 .Div2-Sec4{
     border-top: 8px solid rgb(255,230,77);
 }
 .Div3-Sec4{
     border-top: 8px solid rgb(218,69,80);
 }
-.Div2-Sec4, .Div3-Sec4{
-    width: 47%;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 6%;
-    border-bottom-right-radius: 6%;
-}
-.SousDiv-Div2, .SousDiv-Div3{
+.SousDiv-Div2-Sec4, .SousDiv-Div3-Sec4{
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 7%;
 }
-.SousDiv-Div2 h3 ,.SousDiv-Div3 h3{
+.SousDiv-Div2-Sec4 h3, .SousDiv-Div3-Sec4 h3{
     text-align: center;
     padding-bottom: 4%;
     font-size: 2em;
     color: rgb(218,69,80);
 }
-.SousDiv-Div2 p, .SousDiv-Div3 p{
+.SousDiv-Div2-Sec4 p, .SousDiv-Div3-Sec4 p{
     color: rgb(66, 67, 69);
     opacity: 0.7;
     text-align: justify;
+}
+.SousDiv-Div2-Sec4 p{
+    padding-top: 4%;
+}
+.SousDiv-Div2-Sec4 h3{
+    padding: 2%;
 }
 .BtnDemarrer, .BtnEngager{
     width: 80%;
@@ -326,6 +337,9 @@ h5{
     font-size: 20px;
     margin: 4%;
     padding: 4%; 
+}
+.BtnDemander{
+    margin: 6%;
 }
 .BtnDemarrer:hover, .BtnEngager:hover{
     background-color: transparent;
@@ -347,6 +361,7 @@ h5{
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
+    font-weight: 700;
     padding-bottom: 5%;
 }
 .Div2-Sec5{
@@ -354,7 +369,6 @@ h5{
     height: 80%;
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
     flex-wrap: wrap;
     margin: auto;
     padding: 2%;
@@ -370,26 +384,32 @@ h5{
     align-content: flex-end;
     margin-right: 1%;
     margin-left: 1%;
-    font-size: 11.2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
     color: rgb(255, 255, 255);
-    /* -webkit-animation: slide 18s linear infinite; */
+
 }
 .SousDiv-div1, .SousDiv-div2, .SousDiv-div3, .SousDiv-div4, .SousDiv-div5, .SousDiv-div6, .SousDiv-div7, .SousDiv-div8, .SousDiv-div9{
     width: 33%;
     height: 80%;
     margin: auto;
 }
+.ImgRealisation img{
+    border: 0 solid white;
+    border-radius: 19px;
+}
 .DivDetails, .ImgRealisation{
-    width: 77%;
+    width: 78%;
     height: 90%;
 }
 .DivDetailClient {
-    border: #5bd929 3px solid ;
     width: 118%;
     align-content:space-around ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 3%;
 }
 .DivDetailClient > p, .PaysClient{
     display: inline-block;
@@ -430,22 +450,23 @@ h5{
     flex-direction: row;
     justify-content: space-between;
     background-color: #EF4C58;
-    border: 3px solid rgb(98, 214, 31);
     margin-top: 5.836%;
 }
 .DivTechno p{
     color: white;
-    font-family: 'Ubuntu Mono', monospace;
+   
 }
 .ContainerTechno{
     width: 100%;
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
     font-size: 11px;
 }
 .SousDiv-ContainerTechno{
     padding: 1%;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-size: 11px;
 }
 .SousDiv-ContainerTechno img, i{
     width: 11.92px;
@@ -496,10 +517,10 @@ h5{
 .SousDiv1-Sec6{
     width: 52%;
     height: auto;
-   
 }
 .SousDiv2-Sec6{
     width: 43%;
+    height: auto;
 }
 .HardSkills, .SoftSkills{
     font-family: 'Montserrat', sans-serif;
@@ -525,6 +546,8 @@ h5{
     margin: auto;
     background-color: #F1F0F3;
     border: 0px solid;
+    display: flex;
+    flex-direction: column;
     border-bottom-left-radius: 19px;
     border-bottom-right-radius: 19px;
 }
@@ -553,24 +576,37 @@ h5{
     opacity: 1.5;
 }
 .Details-Softskills{
-    width: 60%;
-    height: 80%;
-    margin: auto;
-    padding-bottom: 28%;
+    width: 69%;
+    padding-bottom: 24%;
+    /* height: 80%; */
+    /* margin: auto; */
+    /* padding-bottom: 28%; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
 }
 .DivListeSoft{
-    padding: 5%;
+    width: 79%;
+    /* margin-left: 15%; */
+    transform: translateX(50%);
+    /* margin: auto; */
+    
+    padding: 2%;
     background-color: rgb(155, 154, 158);
     border: 0px solid rgb(155, 154, 158) ;
     border-radius: 7%;
 }
-.DivListeSoft ol li{
+.DivListeSoft ol{
     width: 65%;
-    padding: 2%;
-    margin: auto;
+    padding: 10%;
+}
+.DivListeSoft ol li{
+    /* padding: 2%; */
+    /* margin: auto; */
 }
 .DivListeSoft ol {
-    margin: auto;
 }
 /*Begin Sec7*/
 .Sec7{
@@ -692,6 +728,9 @@ h5{
 .Strong-Sec8{
     color: #d92950;
 }
+.Div1-SousDiv1 p{
+    margin-bottom: 5%;
+}
 .Div1-SousDiv1 p, .Div1-SousDiv2 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -716,6 +755,7 @@ h5{
     border-radius: 19px;
     background-color: white;
     padding-left: 1%;
+    padding-bottom: 14%;
     margin: 1%;
 }
 .case1, .case2{
@@ -876,19 +916,31 @@ address{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+.Formulaire-Newletters{
+    display: flex;
+    flex-direction: row;
+}
 .InputMail-Footer, .Btn-Footer{
+    display: inline;
     margin-top: 4%;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding: 3%;
 }
+.InputMail-Footer{
+    width: 60%;
+    height: 10%;
+}
 .Btn-Footer{
     -webkit-appearance: none;
     appearance: none;
-    border: 3px solid orange;
-    border-radius: 16px;
-    padding: 3%;
+    color: rgb(255, 255, 255);
+    border: 0px solid #DA4550;
+    /* border-radius: 16px; */
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 3.2%;
     background-color:#DA4550;
 }
 .H6-Footer a{
@@ -903,4 +955,146 @@ address{
 }
 .H6-Footer a:hover{
 
+}
+
+/*Page Emploi*/
+.sec{
+    width: 100%;
+    height: 45%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+.Div1-Sec1-Emploi, .Div1-Sec2-Emploi {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+.Div1-Sec1-Emploi h1, .Div1-Sec2-Emploi h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin: 0px 0px 48px;
+}
+.Div2-Sec1-Emploi{
+    width: 85%;
+    margin: auto;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+.SousDiv1-Div2-Emploi{
+    width: 25%;
+    margin: auto;
+    padding: 3%;
+    display: inline-block;
+    background-color: #F1F0F3;
+    margin-bottom: 3%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.SousDiv1-Div2-Emploi h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0px 0px 8px;
+}
+.SousDiv1-Div2-Emploi p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 48px; 
+}
+.Postuler{
+    text-decoration: none;
+    color: #ff046b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Sec2-Emploi{
+    background-color: #1D1B25;
+}
+.Div1-Sec2-Emploi h1{
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 48px;
+}
+.Para-Emploi{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 2%;
+}
+.A-Sec2-Emploi{
+    color: #d92950;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.Div2-Sec2-Emploi{
+    width: 85%;
+    margin: auto;
+}
+.ContainerFormulaire{
+    color: rgb(255, 255, 255);
+}
+.Div1Form{
+    width: 100%;
+    height: auto;
+    /* border: 3px solid #DA4550; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 9%;
+}
+.LeftFormulaire, .RightFormulaire{
+    width: 48%;
+    height: auto;
+    /* border: 3px solid #6fda45; */
+}
+select{
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 20%;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid rgb(177, 177, 168);
+}
+.Div2Form{
+    width: 100%;
+    /* border: 3px solid #e9e615; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.Textarea-Formulaire{
+    width: 100%;
+}
+.Btn-Envoyer{
+    appearance: none;
+
+    background-color:#DA4550;
+    border: 0px solid #DA4550;
+    border-radius: 15px;
+    padding: 1.2%;
+    margin-top: 2%;
+    color: #FFF;
+}
+.Elemnt{
+    appearance: none;
+
+    width: 100%;
+    height: 20%;
+    border: Opx solid white;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
 }
