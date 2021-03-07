@@ -5,11 +5,6 @@
 body{
     width: 100%;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-#DivPage{
-    width: 100%;
-    height: 100%;
 }
 #Corps{
     padding-top: 5.5%;
@@ -25,7 +20,6 @@ body{
     margin: 0;
 }
 #NavHeader{
-    margin: 0;padding: 0;
     width: 100%;
     height: 100%;
     display: flex;
@@ -40,7 +34,7 @@ body{
 }
 #NavHeader  .Menu{
     width: 90%;
-    margin: 0;padding-left: 0;
+    margin: 0%;padding-left: 0%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -70,7 +64,7 @@ ul li a{
 .Sec1{
     background-color:rgb(218,69,80);
     background-image: url("../Img/hero-background.jpg");
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
     height: auto;
     padding-bottom: 7%;
@@ -83,17 +77,13 @@ ul li a{
     color: rgb(255,230,77);
 }
 .FirstPara{
-    /* font-size: 5rem; */
-    font-weight:900;
-    line-height: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 75px;
+    font-weight:900;
+    font-size: 4.7rem;
     padding-top: 4%;
 }
 .ParaBtn{
-    /* margin: 3%; */
-    /* width: 90%; */
-    width: 48%;
+    width: 50%;
     margin: auto;
 
     margin-top: 3%;
@@ -107,25 +97,25 @@ ul li a{
     border-radius: 18px;
     background-color: white;
     
-    color: rgb(218,69,80);
     color: #d92950;
-    font-size: 1.5em;
-    
     width: 48%;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    margin: 0.7%;
-    padding: 1%;
+    font-size: 1.3em;
+    margin: 2.4%;
+    padding: 2%;
 }
 .BtnDemander:hover, .BtnPlanifier:hover{
     background-color: transparent;
     color: rgb(255, 255, 255);
 }
-.EndPara{
-    font-size: 1.2em;
-    width: 61%;
-    margin: auto;
+.EndPara-Sec1{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #bbbdbf;
+    width: 52.5%;
+    margin: auto;
     margin-bottom: 1.4%;
 }
 .DivIconeTech{
@@ -191,7 +181,7 @@ ul li a{
 .Div2-Sec2 h1{
     color: rgb(66,67,69);
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 .DivQualif{
@@ -224,10 +214,11 @@ h5{
     color: rgb(66,67,69);
     font-weight: bold;
     margin: 2%;
+    padding-top: 3%;
 }
 .Message +  h5{
+    text-align: center;
     width: 100%;
-    text-align: left;
 }
 /*Begin Sec3*/
 .Sec3{
@@ -251,10 +242,10 @@ h5{
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 .Div2-Sec3-Container{
-    width: 60%;
+    width: 70%;
     padding-left: 4%;
     margin: auto;
 
@@ -265,7 +256,7 @@ h5{
     padding-top: 3%;
 }
 .Div2-Sec3-Container div{
-    width: 80%;
+    width: 85%;
     height: 50%;
     /* margin: 3%; */
 }
@@ -293,7 +284,7 @@ h5{
     color: rgba(24, 0, 39, 0.87);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 4%;
 }
@@ -328,7 +319,9 @@ h5{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+    border: 0px solid;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
 }
 .SousDiv-Div2-Sec4 h3, .SousDiv-Div3-Sec4 h3{
     color: rgb(218,69,80);
@@ -339,12 +332,12 @@ h5{
     font-weight: 700;
 }
 .SousDiv-Div2-Sec4 p, .SousDiv-Div3-Sec4 p{
-    color: rgb(66, 67, 69);
-    color: rgba(24, 0, 39, 0.87);
+    color: #4b494bde;
     padding-top: 3%;
-    padding-bottom: 7%;font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    padding-bottom: 7%;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 }
 .SousDiv-Div2-Sec4 p{
     width: 87%;
@@ -362,7 +355,7 @@ h5{
     text-decoration: none;
     border: 3px solid rgb(218,69,80);
     border-radius: 18px;
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 3%;
     margin-bottom: 9%;
 
@@ -373,7 +366,6 @@ h5{
     align-content: center;
 }
 .BtnEngager{
-    width: 65%;
     text-align: center;
 }
 .BtnDemarrer:hover, .BtnEngager:hover{
@@ -382,10 +374,10 @@ h5{
 }
 /*Begin Sec5*/
 .Sec5{
-    /* width: 100%;
-    height: 30%; */
+    width: 100%;
     background-color: #d92950;
-    padding: 3%;
+    padding-top: 10%;
+    padding-bottom: 7%;
 }
 .Div1-Sec5{
     width: 80%;
@@ -395,139 +387,131 @@ h5{
 .Div1-Sec5 h1{
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     padding-bottom: 5%;
 }
 .Div2-Sec5{
-    width: 100%;
+    width: 95%;
+    margin: auto;
     height: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     padding: 2%;
-    overflow: hidden;
 }
 .Container-Sec5{
-    width: 85%;
-    height: 20%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-content: flex-end;
-    margin-right: 1%;
-    margin-left: 1%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 11px;
-    color: rgb(255, 255, 255);
-
-}
-.SousDiv-div1, .SousDiv-div2, .SousDiv-div3, .SousDiv-div4, .SousDiv-div5, .SousDiv-div6, .SousDiv-div7, .SousDiv-div8, .SousDiv-div9{
-    width: 33%;
-    height: 80%;
-    margin: auto;
-}
-.ImgRealisation img{
-    border: 0 solid white;
-    border-radius: 19px;
-}
-.DivDetails, .ImgRealisation{
-    width: 78%;
-    height: 90%;
-}
-.DivDetailClient {
-    width: 118%;
-    align-content:space-around ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 3%;
-}
-.DivDetailClient > p, .PaysClient{
-    display: inline-block;
-}
-.PaysClient{
-    background-color: rgb(255, 255, 255);
-    height: 3%;
-    width: 35%;
-    margin: 0;
-    border: 0 solid white;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    width: 95%;
+    height: 100%;
+    padding: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
-.PaysClient span{
-    padding-left: 15px;
-    color: #d92950;
-}
-.UE{
-    width: auto;
-}
-.Container-Sec5 div a img{
-    width: 330px;
-    height: 412.5px;
-}
-.Img-PaysClient{
-    width: 20px;
-    height: 20px;
-    border: 0px solid;
-    border-radius: 50%;
-}
-.DivTechno{
-    width: 118%;
-    align-content:space-around ;
+.ContainerRealisation-Sec5{
+    width: 93%;
+    margin: auto;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #EF4C58;
-    margin-top: 5.836%;
 }
-.DivTechno p{
-    color: white;
-   
+.SousDiv1-Container-Sec5{
+    width: 33%;
+    height: 100%;
+    margin: 1%;
 }
-.ContainerTechno{
+.ImgRealisation{
+    width: 95%;
+    height: 70%;
+}
+.ImgRealisation a img{
+    width: 100%;
+    height: 70%;
+    border: 0 solid white;
+    border-radius: 16px;
+}
+.DivDetails{
+    width: 95%;
+}
+.DivDetailClient{
     width: 100%;
     display: flex;
     flex-direction: row;
-    font-size: 11px;
-}
-.SousDiv-ContainerTechno{
-    padding: 1%;
-    font-family: "Ubuntu Mono", monospace;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 0.71rem;
+    margin-top: 2%;
+    color: white;
 }
-.SousDiv-ContainerTechno img, i{
-    width: 11.92px;
-    height: 11.92px;
-}
-.DetailClient, .DivTechno{
+.DetailClient{
+    width: 70%;
+    width: auto;
     opacity: 0.7;
 }
-.DetailClient a{
+.DetailClient p>a{
     color: white;
     text-decoration: none;
+}
+.PaysClient{
+    width: 30%;
+    border: 0px solid white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.PaysClient span{
+    color: #d92950;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-right: 7%;
+}
+.Img-PaysClient{
+    width: 25%;
+    border: 0px solid white;
+    border-radius: 16px;
+}
+.DivTecho{
+    width: 100%;
+}
+.ContainerTechno{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+    background-color: #EF4C58;
+    margin-top: 3%;
+    padding: 1.2%;
+}
+.SousDiv-ContainerTechno{
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-left: 0.7%;
+    color: white;
+    opacity: 0.7;
+}
+.SousDiv1-Container-Techno img{
+    width: 10%;
 }
 .DivBtn{
     transform: translateY(50%);
 }
-/* @-webkit-keyframes slide {
-    
-} */
-
 /*Begin Sec6*/
 .Sec6{
     width: 100%;
     height: 15%;
     background-color: rgb(255, 255, 255);
-    padding-top: 5%;
-    padding-bottom: 7%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .Div1-Sec6{
     width: 80%;
@@ -538,7 +522,7 @@ h5{
     color: rgb(66,67,69);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
 }
 .Div2-Sec6{
@@ -560,21 +544,19 @@ h5{
 .HardSkills, .SoftSkills{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.5rem;
 }
 .HardSkills{
     background-color: #EF4C58;
-    width: 94.5%;
+    width: 94%;
     padding: 3%;
     color: rgb(255, 255, 255);
 }
 .SoftSkills{
     background-color: #331F40;
-    width: 100%;
     padding: 3%;
     width: 94.5%;
     color: rgb(255, 255, 255);
-    margin-bottom: 15%;
 }
 .SousDiv2{
     width: 100%;
@@ -610,45 +592,41 @@ h5{
     width: 40%;
     opacity: 1.5;
 }
+.Technologie p{
+    font-family: 'Ubuntu Mono', monospace;
+    color: #424345;
+    font-size: 1.3rem;
+}
 .Details-Softskills{
-    width: 69%;
-    padding-bottom: 24%;
-    /* height: 80%; */
-    /* margin: auto; */
-    /* padding-bottom: 28%; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center; */
+    width: 85%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 .DivListeSoft{
-    width: 79%;
-    /* margin-left: 15%; */
-    transform: translateX(50%);
-    /* margin: auto; */
-    
-    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
     background-color: rgb(155, 154, 158);
-    border: 0px solid rgb(155, 154, 158) ;
-    border-radius: 7%;
-}
-.DivListeSoft ol{
-    width: 65%;
-    padding: 10%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border: 0px solid;
+    border-radius: 17px;
 }
 .DivListeSoft ol li{
-    /* padding: 2%; */
-    /* margin: auto; */
-}
-.DivListeSoft ol {
+    font-family: 'Ubuntu Mono', monospace;;
+    color: #424345;
+    font-size: 1.3rem;
+    padding: 3%;
 }
 /*Begin Sec7*/
 .Sec7{
     background-color: #AF3953;
     width: 100%;
     height: 15%;
-    padding-top: 5%;
+    padding-top: 7%;
     padding-bottom: 7%;
     color: white;
 }
@@ -659,8 +637,8 @@ h5{
 .Div1-Sec7 h1{
     padding-bottom: 5%;
     text-align: center;
-    font-family: 'Montserrat';
-    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 .Div2-Sec7{
     width: 80%;
@@ -677,12 +655,12 @@ h5{
     justify-content: space-between;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
 }
 .SousDivAppel{
     width: 60%;
     margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -691,20 +669,33 @@ h5{
     margin: auto;
     text-align: center;
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 21px;
+    font-size: 1.2rem;
+    padding-top: 3%;
 }
 .ImgPret{
-    width: 34px;
-    height: 40px;
+    width: 34%;
+    height: 30%;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 15%;
     padding: 7%;
     margin-right: 14%;
     margin-bottom: 4%;
 }
+.ImgPropositions{
+    height: 29%;
+    padding: 10%;
+}
+.ImgAppel{
+    width: 26%;
+}
+.ImgOnboarding{
+    width: 39%;
+    height: 40%;
+    padding: 10%;
+}
 .Fleche-DivAppel{
-    width: 34px;
-    height: 26px;
+    width: 22%;
+    height: 26%;
 }
 .DivBtn-Sec7{
     width: 50%;
@@ -717,7 +708,8 @@ h5{
     text-decoration: none;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 1.22rem;
     border: 3px solid #DA4550;
     border-radius: 16px;
     background-color: #DA4550;
@@ -755,10 +747,10 @@ h5{
 }
 .Div1-SousDiv1 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #424345;
-    margin: 0px 0px 48px;
+    margin: 0 0 5%;
 }
 .Strong-Sec8{
     color: #d92950;
@@ -768,14 +760,14 @@ h5{
 }
 .Div1-SousDiv1 p, .Div1-SousDiv2 p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
     font-weight: 400;
+    font-size: 1rem;
     color: #424345;
 }
 .Img-SousDiv1-Sec8{
     width: 100%;
     height: 130%;
-    margin: 16px 0px;
+    margin: 7% 0%;
 }
 .SousDiv2-Sec8{
     width: 48%;
@@ -785,27 +777,29 @@ h5{
     justify-content: space-between;
 }
 .Div1-SousDiv2{
-    width: 45%;
+    width: 42%;
     border: 4px solid rgb(255, 255, 255);
     border-radius: 19px;
     background-color: white;
+    padding: 1.5%;
     padding-left: 1%;
     padding-bottom: 14%;
-    margin: 1%;
+    margin: 1.3%;
 }
 .case1, .case2{
     margin-bottom: 5%;
 }
 .Div1-SousDiv2 img{
-    width: 50px;
-    height: 50px;
+    width: 25%;
+    height: 30%;
 }
 .Div1-SousDiv2 h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
     font-weight: 700;
-    margin: 1%;
     color: #424345;
+    font-size: 1.5rem;
+    padding-bottom: 3%;
+    margin: 1%;
 }
 /*Begin Sec9*/
 .Sec9{
@@ -819,9 +813,9 @@ h5{
 }
 .H1-Sec9{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin: 0px 0px 50px;
+    margin: 0% 0% 10%;
 }
 .SousDiv2-Sec9{
     width: 50%;
@@ -829,7 +823,7 @@ h5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 15px;
+    padding: 0% 5%;
 }
 /*Begin Sec10*/
 .Sec10{
@@ -848,14 +842,14 @@ h5{
 .SousDiv1-Sec10{
     width: 70%;
     margin: auto;
-    padding: 0px 15px;
+    padding: 0% 5%;
 }
 .H1-Sec10{
     color: #424345;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin: 0px 0px 50px;
+    margin: 0% 0% 10%;
 }
 .SousDiv2-Sec10, .SousDiv3-Sec10{
     width: 85%;
@@ -868,25 +862,26 @@ h5{
 }
 .Div1-Soutenir{
     width: 23%;
-    margin: 0px 0px 28px;
+    margin: 0% 0% 6%;
     text-align: left;
 }
 .Div1-Soutenir img{
-    width: 270px;
-    height: 168.75px;
+    width: 95%;
+    height: 90%;
     border: 4px solid rgb(255, 255, 255);
     border-radius: 19px;
 }
 .Div1-SousDiv2-Sec10 p{
-    color: #424345;
+    width: 95%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400; 
+    color: #424345;
 }
-p .Strong-Sec10{
+p >.Strong-Sec10{
     color: #000000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
 }
 .SousDiv3-Soutenir{
@@ -911,20 +906,23 @@ footer{
 .Div1-Footer, .Div2-Footer{
     width: 48%;
     margin-bottom: 2%;
-    /* height: 100%; */
 }
 address{
     color: #cbccce;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.4rem;
 }
 .SousDiv2-Div1-Footer{
     margin-top: 4%;
+
 }
 .SousDiv2-Div1-Footer a, .SousDiv3-Div1-Footer{
-    color: red;
+    color: #D92950;
     text-decoration: none;
+}
+.SousDiv2-Div1-Footer .MailKD{
+  padding-bottom: 4%;
 }
 .Strong-Footer, .Strong-Div2-Footer{
     color: white;
@@ -938,13 +936,13 @@ address{
     margin-top: 4%;
 }
 .SousDiv3-Div1-Footer i{
-    font-size: 200%;
+    font-size: 2.1rem;
     padding-right: 5%;
     margin-right: 2%;
 }
 .Div2-Footer{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: 400;
     color: #cbccce;
 }
@@ -960,7 +958,7 @@ address{
     display: inline;
     margin-top: 4%;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     padding: 3%;
 }
@@ -969,21 +967,26 @@ address{
     height: 10%;
 }
 .Btn-Footer{
+    text-decoration: none;
     -webkit-appearance: none;
     appearance: none;
     color: rgb(255, 255, 255);
-    border: 0px solid #DA4550;
-    /* border-radius: 16px; */
+    border: 0px solid #D92950;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     padding: 3.2%;
-    background-color:#DA4550;
+    background-color:#D92950;
+    transition-duration: 1.2s;
+}
+.Formulaire-Newletters a:hover{
+    background-color: #FFF;
+    color: #DA4550;
 }
 .H6-Footer a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 .H6-Footer{
@@ -1009,7 +1012,7 @@ address{
 }
 .Div1-Sec1-Emploi h1, .Div1-Sec2-Emploi h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #000;
     margin: 0px 0px 48px;
@@ -1017,9 +1020,6 @@ address{
 .Div2-Sec1-Emploi{
     width: 85%;
     margin: auto;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
 }
 .SousDiv1-Div2-Emploi{
     width: 25%;
@@ -1079,7 +1079,6 @@ address{
 .Div1Form{
     width: 100%;
     height: auto;
-    /* border: 3px solid #DA4550; */
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -1094,10 +1093,6 @@ address{
 }
 select{
     outline: none;
-    /* width: 100%;
-    border: none;
-    background-color: #FFFFFF;
-    border-bottom: 2px solid rgb(177, 177, 168); */
 }
 .Div2Form{
     width: 100%;
@@ -1110,6 +1105,7 @@ select{
 }
 .Btn-Envoyer{
     appearance: none;
+    display: inline-block;
 
     background-color:#DA4550;
     border: 0px solid #DA4550;
