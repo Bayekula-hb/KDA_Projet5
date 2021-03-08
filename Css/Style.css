@@ -1177,7 +1177,7 @@ select:focus, input:focus, textarea:focus{
     outline : none;
     box-shadow: 0.5px 0.2px 0px 3px #F3506B;
 } 
-.MenuSite li a::after, .SousDiv3-Div1-Footer i::after, .Div1-Div2Form p .A-Sec2-Emploi::after, .H6-Footer a::after, .SousDiv2-Div1-Footer a::after  {
+.MenuSite li a::after, .A-Sec2-Emploi::after, .SousDiv3-Div1-Footer i::after, .Div1-Div2Form p .A-Sec2-Emploi::after, .H6-Footer a::after, .SousDiv2-Div1-Footer a::after  {
     content: "";
     display: block;
     width: 0%;
@@ -1185,7 +1185,7 @@ select:focus, input:focus, textarea:focus{
     background: #F3506B;
     transition: width .3s;
 }
-.MenuSite li a:hover::after, .H6-Footer a:hover:after, .SousDiv3-Div1-Footer i:hover:after, .Div1-Div2Form p .A-Sec2-Emploi:hover:after,  .SousDiv2-Div1-Footer a:hover:after {
+.MenuSite li a:hover::after, .A-Sec2-Emploi:hover::after, .H6-Footer a:hover:after, .SousDiv3-Div1-Footer i:hover:after, .Div1-Div2Form p .A-Sec2-Emploi:hover:after,  .SousDiv2-Div1-Footer a:hover:after {
     width: 100%;
     transition: width .3s;
 }
