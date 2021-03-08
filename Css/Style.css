@@ -995,8 +995,8 @@ address{
 .H6-Footer{
     margin-top: 25%;
 }
-.H6-Footer a:hover{
-
+.H6-Footer a{
+    display: inline-block;
 }
 
 /*Page Emploi*/
@@ -1034,6 +1034,10 @@ address{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
 }
+.SousDiv2-Div1-Footer a{
+    display: inline-block;
+    margin-top: 1.2%;
+}
 .SousDiv1-Div2-Emploi h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
@@ -1067,6 +1071,7 @@ address{
     margin-bottom: 2%;
 }
 .A-Sec2-Emploi{
+    display: inline-block;
     color: #d92950;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -1090,6 +1095,10 @@ address{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 11%;
+}
+.Div1-Div2Form p{
+    width: 100%;
+    text-align: justify;
 }
 .LeftFormulaire, .RightFormulaire{
     width: 48%;
@@ -1145,18 +1154,24 @@ select{
     transition-duration: 13s;
     transition-timing-function: linear;
 }
-.MenuSite li a:hover {
-    /* animation: 0.7s linear 3s border_bottom; */
-    /* animation-duration: 4s;
-    animation-name: border_bottom; */
-    border-bottom: blue 2px solid;
+select:focus, input:focus{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    border:  5px solid #F3506B;
+    box-shadow: 5px 5px 5px 5px #F3506B;
+    color: rgb(255, 0, 221);
+} 
+.MenuSite li a::after, .SousDiv3-Div1-Footer i::after, .Div1-Div2Form p .A-Sec2-Emploi::after, .H6-Footer a::after, .SousDiv2-Div1-Footer a::after  {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #F3506B;
+    transition: width .3s;
 }
-@keyframes border_bottom {
-  from{
-    border-bottom: blue 2px solid;
-    width: 10%;
-  }
-  to{
+.MenuSite li a:hover::after, .H6-Footer a:hover:after, .SousDiv3-Div1-Footer i:hover:after, .Div1-Div2Form p .A-Sec2-Emploi:hover:after,  .SousDiv2-Div1-Footer a:hover:after {
     width: 100%;
-  }
+    transition: width .3s;
 }
