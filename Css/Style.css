@@ -178,7 +178,7 @@ ul li a{
     width: 55%;
     height: auto;
 }
-.Div2-Sec2 h1{
+.Div2-Sec2 h2{
     color: rgb(66,67,69);
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -279,7 +279,7 @@ h5{
     width: 90%;
     margin: auto;
 }
-.Div1-Sec4 h1{
+.Div1-Sec4 h2{
     color: rgb(57,37,70);
     color: rgba(24, 0, 39, 0.87);
     text-align: center;
@@ -384,7 +384,7 @@ h5{
     margin: auto;
     text-align: center;
 }
-.Div1-Sec5 h1{
+.Div1-Sec5 h2{
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -518,7 +518,7 @@ h5{
     margin: auto;
     margin-bottom: 3%;
 }
-.Div1-Sec6 h1{
+.Div1-Sec6 h2{
     color: rgb(66,67,69);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -634,7 +634,7 @@ h5{
     width: 80%;
     margin: auto;
 }
-.Div1-Sec7 h1{
+.Div1-Sec7 h2{
     padding-bottom: 5%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -745,7 +745,7 @@ h5{
 .Div1-SousDiv1{
     width: 100%;
 }
-.Div1-SousDiv1 h1{
+.Div1-SousDiv1 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
@@ -1056,8 +1056,9 @@ address{
 .Sec2-Emploi{
     background-color: #1D1B25;
 }
-.Div1-Sec2-Emploi h1{
+.Div1-Sec2-Emploi h2{
     color: rgba(255, 255, 255, 0.87);
+    padding-bottom: 1%;
     font-size: 48px;
 }
 .Para-Emploi{
