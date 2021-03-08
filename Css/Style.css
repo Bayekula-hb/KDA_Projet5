@@ -976,9 +976,12 @@ address{
     border-bottom-right-radius: 16px;
     padding: 3.2%;
     background-color:#D92950;
-    transition-duration: 1.2s;
+    transition-duration: 0.8s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
 }
-.Formulaire-Newletters a:hover{
+.Formulaire-Newletters .Btn-Footer:hover{
     background-color: #FFF;
     color: #DA4550;
 }
@@ -1134,4 +1137,25 @@ select{
 .Elemnt::placeholder{
     color: #2D2D2D;
     padding-left: 12px;
+}
+.MenuSite li{
+    transition-property: border;
+    transition-delay: 14s;
+    transition-duration: 13s;
+    transition-timing-function: linear;
+}
+.MenuSite li a:hover {
+    /* animation: 0.7s linear 3s border_bottom; */
+    /* animation-duration: 4s;
+    animation-name: border_bottom; */
+    border-bottom: blue 2px solid;
+}
+@keyframes border_bottom {
+  from{
+    border-bottom: blue 2px solid;
+    width: 10%;
+  }
+  to{
+    width: 100%;
+  }
 }
